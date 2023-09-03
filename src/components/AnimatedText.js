@@ -36,7 +36,7 @@ export default function AnimatedText({ text, className = "" }) {
           variants={quote}
           initial="initial"
           animate="animate"
-          className={`${className} inline-block w-full text-dark font-bold text-8xl capitalize`}
+          className={`${className} inline-block w-full text-dark dark:text-light font-bold text-8xl capitalize`}
         >
           {text.split(" ").map((word, index) => (
             <motion.span

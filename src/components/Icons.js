@@ -430,7 +430,6 @@ export const MoonIcon = ({ className, ...rest }) => (
 export const CircularText = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    xmlSpace="preserve"
     viewBox="0 0 1080 1080"
     className={`w-full h-auto ${className}`}
     {...rest}
