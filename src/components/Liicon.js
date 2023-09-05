@@ -9,7 +9,7 @@ export default function Liicon({ reference }) {
     <>
       <figure className="absolute left-0 stroke-dark dark:stroke-light">
         <svg
-          className="-rotate-90"
+          className="-rotate-90 md:w-[60px] md:h-[60px] xs:w-[40px] xs:h-[40px]"
           width="75"
           height="75"
           viewBox="0 0 100 100"
