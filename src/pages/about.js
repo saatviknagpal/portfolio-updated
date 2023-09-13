@@ -56,12 +56,12 @@ export default function About() {
                 Biography
               </h2>
               <p className="font-medium ">
-                Hello, I'm Saatvik, a dedicated full stack developer deeply
+                Hello, I&apos;m Saatvik, a dedicated full stack developer deeply
                 passionate about open source initiatives. I thrive on crafting
                 seamless and innovative digital solutions that seamlessly merge
                 form and function. My unwavering enthusiasm for open source
-                fuels my drive to translate client's visions into captivating,
-                user-centric experiences.
+                fuels my drive to translate client&apos;s visions into
+                captivating, user-centric experiences.
               </p>
               <p className="my-4 font-medium ">
                 I firmly believe that design should transcend aesthetics and
@@ -69,7 +69,7 @@ export default function About() {
                 gratifying user journeys. Be it a web application, a mobile
                 interface, or any digital platform, I channel my expertise in
                 design excellence and user-focused principles into every facet
-                of my work. I'm excited about the prospect of channeling my
+                of my work. I&apos;m excited about the prospect of channeling my
                 skills and fervor into your upcoming project.
               </p>
             </div>
