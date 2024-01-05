@@ -50,10 +50,16 @@ export default function Education() {
           />
           <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
             <Details
+              type="Master of Science in Computer Science"
+              time="2024-2025"
+              place="University of Southern California, Los Angeles"
+              info="Relevant courses: CSCI 571 Web Technologies"
+            />
+            <Details
               type="Master of Science in Software Engineering Systems"
-              time="2023-2025"
+              time="2023-2023"
               place="Northeastern University, Boston"
-              info="Relevant courses included Program Structure and Algorithms, Object Oriented Programming using Java"
+              info="Relevant courses: INFO 6205 Program Structures and Algorithms, CSYE 6200 Object Oriented Design"
             />
             <Details
               type="Bachelor of Technology in Computer Science and Engineering"
