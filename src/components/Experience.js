@@ -56,6 +56,14 @@ export default function Experience() {
             className="absolute left-9 top-0 w-[4px] h-full dark:bg-light bg-dark origin-top md:w-[2px] md:left-[30px] xs:left-[20px]"
           />
           <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
+              <Details
+              position="Software Developer Intern"
+              company="Desi QnA"
+              companyLink="https://www.desiqna.in/"
+              time="04/23 - 08/23"
+              address="Remote"
+              work="In my role at Desi QnA, I spearheaded the design and development of a responsive section using HTML, CSS, JavaScript, and Bootstrap, which resulted in a 40% increase in user engagement. Leveraging PHP and custom algorithms, I significantly enhanced user authentication measures, cutting down bot activities and spam by 60%. Further bolstering site security, I successfully integrated Google reCAPTCHA with PHP and JavaScript, achieving a 70% enhancement in site security while maintaining a seamless user experience."
+            />
             <Details
               position="Frontend Developer Intern"
               company="TGH Tech"
