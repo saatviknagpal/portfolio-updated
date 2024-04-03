@@ -62,7 +62,7 @@ export default function Experience() {
               companyLink="https://www.desiqna.in/"
               time="04/23 - 08/23"
               address="Remote"
-              work="In my role at Desi QnA, I spearheaded the design and development of a responsive section using HTML, CSS, JavaScript, and Bootstrap, which resulted in a 40% increase in user engagement. Leveraging PHP and custom algorithms, I significantly enhanced user authentication measures, cutting down bot activities and spam by 60%. Further bolstering site security, I successfully integrated Google reCAPTCHA with PHP and JavaScript, achieving a 70% enhancement in site security while maintaining a seamless user experience."
+              work="I led the transformation of the platform into a Progressive Web App (PWA), significantly enhancing load times and offline performance, which resulted in a 60% boost in user retention. I spearheaded the implementation of a cutting-edge, blockchain-based authentication system using Ethereum smart contracts, achieving a remarkable 75% reduction in unauthorized access. Additionally, I fortified API security by introducing OAuth 2.0 and JWT, enhancing data protection and user session integrity by 70%. Further strengthening site security, I integrated Google reCAPTCHA using PHP and JavaScript, complemented by automated deployment updates via AWS CodePipeline, collectively heightening site security by 70%."
             />
             <Details
               position="Frontend Developer Intern"
