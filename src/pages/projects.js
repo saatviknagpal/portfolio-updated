@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import vidLounge from "../../public/images/projects/vidlounge.png";
+import stock from "../../public/images/projects/stock.png";
 import devshowcase from "../../public/images/projects/devshowcase.png";
 import quotesly from "../../public/images/projects/quotesly.png";
 import apistore from "../../public/images/projects/apistore.png";
@@ -176,6 +177,22 @@ export default function Projects(props) {
           />
 
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 ">
+            <div className="col-span-12">
+            <FeaturedProject
+                title="Stock Search App"
+                summary="StockMaster is a comprehensive stock trading application designed to empower users with the tools to effectively manage their investments. With its user-friendly interface, StockMaster allows users to effortlessly search for and monitor stock performance in real-time. Users can execute trades, including buying and selling shares, directly through the app. Additionally, StockMaster offers a secure wallet feature where users can keep track of their cash balance and transaction history. This app aims to simplify the trading process, making it accessible for both novice investors and experienced traders. Enhanced with robust security measures, StockMaster ensures a reliable and safe trading environment for all its users."
+                techStack={[
+                  "logos:nextjs-icon",
+                  "logos:nodejs-icon",
+                  "simple-icons:express",
+                  "logos:mongodb-icon",
+                ]}
+                type="Featured Project"
+                link="https://frontend-dot-webtechassignment3-418820.wl.r.appspot.com/"
+                github="https://github.com/saatviknagpal/assignment-3"
+                img={stock}
+              />
+              </div>
             <div className="col-span-12">
               <FeaturedProject
                 title="VidLounge"
