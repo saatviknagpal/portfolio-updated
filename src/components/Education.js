@@ -53,7 +53,7 @@ export default function Education() {
               type="Master of Science in Computer Science"
               time="2024-2025"
               place="University of Southern California, Los Angeles"
-              info="Relevant courses: CSCI 571 Web Technologies"
+              info="Relevant courses: CSCI 561: Foundations of AI, CSCI 571: Web Technologies"
             />
             <Details
               type="Master of Science in Software Engineering Systems"
@@ -64,14 +64,8 @@ export default function Education() {
             <Details
               type="Bachelor of Technology in Computer Science and Engineering"
               time="2019-2023"
-              place="Guru Gobind Singh University, Delhi"
+              place="Guru Gobind Singh Indraprastha University, Delhi"
               info="Relevant courses included Data Structures and Algorithms, Operating System, Object Oriented Programming and Database Management System."
-            />
-            <Details
-              type="Higher Secondary"
-              time="2018-2019"
-              place="MM Public School, Delhi"
-              info="Relevant courses included English, Physics, Chemistry, Maths and Physical Education"
             />
           </ul>
         </div>

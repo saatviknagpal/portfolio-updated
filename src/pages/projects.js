@@ -7,6 +7,7 @@ import Link from "next/link";
 import React from "react";
 import vidLounge from "../../public/images/projects/vidlounge.png";
 import stock from "../../public/images/projects/stock.png";
+import visionaryLab from "../../public/images/projects/visionaryLab.png";
 import devshowcase from "../../public/images/projects/devshowcase.png";
 import quotesly from "../../public/images/projects/quotesly.png";
 import apistore from "../../public/images/projects/apistore.png";
@@ -178,8 +179,26 @@ export default function Projects(props) {
 
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 ">
             <div className="col-span-12">
-            <FeaturedProject
-                title="Stock Search App"
+              <FeaturedProject
+                title="VisionaryLab"
+                summary="This project is an AI SaaS platform designed for image transformations. I developed it using Next.js and TypeScript for both the frontend and backend, integrating Kafka for real-time data streaming. By incorporating TensorFlow for machine learning, I achieved a 40% reduction in processing time. The platform also utilizes Cloudinary AI for image processing, MongoDB for database management, Clerk for secure authentication, and Stripe for seamless payment processing, resulting in a 20% increase in transaction reliability and a 15% boost in user trust."
+                techStack={[
+                  "logos:nextjs-icon",
+                  "logos:nodejs-icon",
+                  "logos:mongodb-icon",
+                  "logos:tensorflow",
+                  "skill-icons:kafka",
+                  "logos:cloudinary",
+                ]}
+                type="Featured Project"
+                link="https://visionary-lab.vercel.app/"
+                github="https://github.com/saatviknagpal/visionaryLab"
+                img={visionaryLab}
+              />
+            </div>
+            <div className="col-span-6 md:col-span-12">
+              <Project
+                title="StockMaster"
                 summary="StockMaster is a comprehensive stock trading application designed to empower users with the tools to effectively manage their investments. With its user-friendly interface, StockMaster allows users to effortlessly search for and monitor stock performance in real-time. Users can execute trades, including buying and selling shares, directly through the app. Additionally, StockMaster offers a secure wallet feature where users can keep track of their cash balance and transaction history. This app aims to simplify the trading process, making it accessible for both novice investors and experienced traders. Enhanced with robust security measures, StockMaster ensures a reliable and safe trading environment for all its users."
                 techStack={[
                   "logos:nextjs-icon",
@@ -192,9 +211,9 @@ export default function Projects(props) {
                 github="https://github.com/saatviknagpal/assignment-3"
                 img={stock}
               />
-              </div>
-            <div className="col-span-12">
-              <FeaturedProject
+            </div>
+            <div className="col-span-6 md:col-span-12">
+              <Project
                 title="VidLounge"
                 summary="VidLounge is an online platform that allows its users to watch and stream videos that are accessible on the site. In addition, users can interact with the videos by commenting, liking, disliking, or sharing them. Moreover, the website provides the option for users to upload their own videos, with a file size limit of 50 megabytes."
                 techStack={[
