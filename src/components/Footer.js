@@ -24,7 +24,7 @@ export default function Footer() {
             </Link>
           </div>
           <Link
-            href="mailto:nagpal.saa@northeastern.edu"
+            href="mailto:saatvikn@usc.edu"
             className="underline underline-offset 2"
           >
             Say Hello

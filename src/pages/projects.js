@@ -13,6 +13,8 @@ import quotesly from "../../public/images/projects/quotesly.png";
 import apistore from "../../public/images/projects/apistore.png";
 import thesocialtown from "../../public/images/projects/thesocialtown.png";
 import portfolio from "../../public/images/projects/portfolio.png";
+import aiflashcards from "../../public/images/projects/ai-flashcards.png"
+import pantryPal from "../../public/images/projects/pantry-pal.png"
 import { Icon } from "@iconify/react";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -178,8 +180,25 @@ export default function Projects(props) {
           />
 
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 ">
-            <div className="col-span-12">
+          <div className="col-span-12">
               <FeaturedProject
+                title="AI Flashcards"
+                summary="I developed an AI-powered SaaS platform using Next.js, OpenAI, and Langchain that allows users to create personalized flashcards by entering text or uploading PDFs. This feature offers a highly interactive and customizable study tool, which led to a significant increase in user engagement. To enhance the platform's user experience and security, I integrated Tailwind CSS for styling, ShadCN UI for a modern interface, Clerk for secure route protection, and Firebase for backend support. These improvements contributed to a more reliable and appealing experience, ultimately boosting user retention."
+                techStack={[
+                  "logos:nextjs-icon",
+                  "arcticons:openai-chatgpt",
+                  "simple-icons:langchain",
+                  "logos:firebase",
+                  "logos:tailwindcss-icon",
+                ]}
+                type="Featured Project"
+                link="https://ai-flashcards-saas.vercel.app/"
+                github="https://github.com/saatviknagpal/ai-flashcards"
+                img={aiflashcards}
+              />
+            </div>
+            <div className="col-span-6 md:col-span-12">
+              <Project
                 title="VisionaryLab"
                 summary="This project is an AI SaaS platform designed for image transformations. I developed it using Next.js and TypeScript for both the frontend and backend, integrating Kafka for real-time data streaming. By incorporating TensorFlow for machine learning, I achieved a 40% reduction in processing time. The platform also utilizes Cloudinary AI for image processing, MongoDB for database management, Clerk for secure authentication, and Stripe for seamless payment processing, resulting in a 20% increase in transaction reliability and a 15% boost in user trust."
                 techStack={[
@@ -194,6 +213,22 @@ export default function Projects(props) {
                 link="https://visionary-lab.vercel.app/"
                 github="https://github.com/saatviknagpal/visionaryLab"
                 img={visionaryLab}
+              />
+            </div>
+            <div className="col-span-6 md:col-span-12">
+              <Project
+                title="PantryPal"
+                summary="Pantry Pal is a web application that helps users manage their pantry inventory, generate recipes based on available ingredients, and visualize the recipes with images."
+                techStack={[
+                  "logos:nextjs-icon",
+                  "logos:nodejs-icon",
+                  "logos:firebase",
+                  "arcticons:openai-chatgpt",
+                ]}
+                type="Website"
+                link="https://www.youtube.com/watch?v=n3NJaAsTOzM/"
+                github="https://github.com/saatviknagpal/PantryPal"
+                img={pantryPal}
               />
             </div>
             <div className="col-span-6 md:col-span-12">
