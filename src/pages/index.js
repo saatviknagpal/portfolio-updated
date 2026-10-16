@@ -83,15 +83,15 @@ export default function Home() {
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Crafting Reality Through the Language of Code."
+                text="Full-stack engineer building tools for AI evaluation."
                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs ">
-                As a skilled full-stack developer and data science enthusiast, I
-                am dedicated to turning ideas into innovative web applications
-                and intelligent solutions. Explore my latest projects and
-                articles, showcasing my expertise in React.js, machine learning,
-                and web development.
+                I&apos;m a software engineer in San Francisco. At Mercor, I built
+                tooling for AI model evaluation: pass@k scoring pipelines,
+                Claude-based QA for eval batches, benchmark launch tooling, and
+                annotation workflows used by 100+ domain experts. I work across
+                TypeScript, Python, FastAPI, and PostgreSQL.
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <button
@@ -102,7 +102,7 @@ export default function Home() {
                 </button>
                 <Link
                   className="ml-4 text-lg font-medium capitalize dark:text-light text-dark underline md:text-base"
-                  href="mailto:saatvikn@usc.edu"
+                  href="mailto:recruitsaatvik@gmail.com"
                 >
                   Contact
                 </Link>

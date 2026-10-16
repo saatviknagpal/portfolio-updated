@@ -56,13 +56,21 @@ export default function Experience() {
             className="absolute left-9 top-0 w-[4px] h-full dark:bg-light bg-dark origin-top md:w-[2px] md:left-[30px] xs:left-[20px]"
           />
           <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
-              <Details
+            <Details
+              position="Software Engineer (MTS)"
+              company="Mercor"
+              companyLink="https://www.mercor.com/"
+              time="08/25 - 09/26"
+              address="San Francisco, CA"
+              work="Core engineer across 20+ client projects with multi-million-dollar estimated revenue impact, resolving 200+ issues spanning client delivery, infrastructure, automations, and expert tooling. Built the pass@k scoring pipeline and interactive dashboard behind 100% of client pass@k deliveries. Cut eval batch QA review from 2-3 hours to 20 minutes per benchmark with Claude-based validation, and reduced Canonical Eval setup from 5-10 minutes to under 1 minute. Built MultiSource task generation, delivery pipelines, autosave, and a Lean 4 compiler inside the annotation platform, enabling 100+ experts to annotate at scale. Gave 11+ engineers visibility into 2.5K+ eval batches and 1M+ trajectories with a model-by-benchmark dashboard, and led an S3-backed PII annotation workflow that anonymized 5K documents."
+            />
+            <Details
               position="Software Developer Intern"
               company="Desi QnA"
               companyLink="https://www.desiqna.in/"
               time="04/23 - 08/23"
               address="Remote"
-              work="I led the transformation of the platform into a Progressive Web App (PWA), significantly enhancing load times and offline performance, which resulted in a 60% boost in user retention. I spearheaded the implementation of a cutting-edge, blockchain-based authentication system using Ethereum smart contracts, achieving a remarkable 75% reduction in unauthorized access. Additionally, I fortified API security by introducing OAuth 2.0 and JWT, enhancing data protection and user session integrity by 70%. Further strengthening site security, I integrated Google reCAPTCHA using PHP and JavaScript, complemented by automated deployment updates via AWS CodePipeline, collectively heightening site security by 70%."
+              work="Kept the app usable in low-connectivity conditions by building an offline-capable Progressive Web App (PWA) with data sync on reconnect and token-based authentication for sign-in and onboarding."
             />
             <Details
               position="Frontend Developer Intern"
@@ -70,7 +78,7 @@ export default function Experience() {
               companyLink="https://www.tghtech.com/"
               time="05/22 - 08/22"
               address="Remote"
-              work="Worked on a collaborative team, contributing my skills as a full stack developer to deliver impactful projects. Notably, I spearheaded the frontend development of The Social Town (TST), an innovative virtual platform dedicated to community building and catalyzing social change. Leveraging React.js, I seamlessly managed state across diverse pages using Redux Toolkit. Additionally, I played a pivotal role in enhancing user engagement for Boring Bots, a web platform aimed at streamlining business and professional tasks. As a testament to my proficiency, I designed and constructed an intricate admin dashboard from scratch for a movie stock market application, integrating visually captivating Chart.js charts to elevate data visualization and overall user experience."
+              work="Shipped 2 customer-facing websites and a SaaS application, and cut unnecessary data fetching with GraphQL caching, cursor-based pagination, and lazy loading."
             />
 
             <Details
@@ -79,8 +87,7 @@ export default function Experience() {
               companyLink="https://gssoc.girlscript.tech/"
               time="03/21- 05/21"
               address="Remote"
-              work="
-I achieved the impressive rank of 34 out of over 1300 active participants in the Girlscript Summer of Code Program. My contributions spanned a diverse array of projects including NeoAlgo, NeoAlgo-Docs, React-Messenger-App, Periodo, CSwala-website, Awesome-Computer-Science, Delhi-Tourism, easya-website, pixelvibe, lifemedeasy, makesmatheasy-documentation, JagratiWebApp, and Kitabe Projects. My primary focus during GSSoC'2021 encompassed Data Structures, Algorithms, and Front-End Development. I actively collaborated using Git and Github, fostering my dedication to open-source development."
+              work="Ranked 34th of 1,300+ participants in GirlScript Summer of Code 2021, contributing to NeoAlgo, NeoAlgo-Docs, CSwala, JagratiWebApp, and other open-source projects."
             />
           </ul>
         </div>

@@ -26,26 +26,26 @@ export default function Skills() {
           className="flex items-center justify-center rounded-full font-semibold bg-dark dark:text-dark dark:bg-light text-light p-7 shadow-dark cursor-pointer lg:p-6 md:p-4 xs:text-xs xs:p-2"
           whileHover={{ scale: 1.05 }}
         >
-          Web and ML
+          Full-Stack & AI
         </motion.div>
-        <Skill name="Java" x="11vw" y="13vw" />
-        <Skill name="Python" x="15vw" y="8vw" />
-        <Skill name="C++" x="-15vw" y="-8vw" />
-        <Skill name="Kotlin" x="10vw" y="-12vw" />
-        <Skill name="TypeScript" x="13vw" y="18vw" />
-        <Skill name="Spring Boot" x="5vw" y="-18vw" />
-        <Skill name="SQL" x="-18vw" y="5vw" />
-        <Skill name="PostgreSQL" x="22vw" y="-5vw" />
-        <Skill name="DBMS/RDBMS" x="-8vw" y="22vw" />
-        <Skill name="Supabase" x="-22vw" y="-5vw" />
-        <Skill name="PHP" x="0vw" y="25vw" />
-        <Skill name="Flask" x="18vw" y="0vw" />
-        <Skill name="Swing" x="-22vw" y="12vw" />
-        <Skill name="Google Cloud Platform" x="4vw" y="20vw" />
-        <Skill name="AWS" x="-5vw" y="18vw" />
-        <Skill name="Kafka" x="-12vw" y="25vw" />
-        <Skill name="Docker" x="18vw" y="-15vw" />
-        <Skill name="TensorFlow" x="-15vw" y="20vw" />
+        <Skill name="Python" x="11vw" y="13vw" />
+        <Skill name="TypeScript" x="15vw" y="8vw" />
+        <Skill name="JavaScript" x="-15vw" y="-8vw" />
+        <Skill name="Java" x="10vw" y="-12vw" />
+        <Skill name="SQL" x="13vw" y="18vw" />
+        <Skill name="React" x="5vw" y="-18vw" />
+        <Skill name="Next.js" x="-18vw" y="5vw" />
+        <Skill name="FastAPI" x="22vw" y="-5vw" />
+        <Skill name="Node.js" x="-8vw" y="22vw" />
+        <Skill name="GraphQL" x="-22vw" y="-5vw" />
+        <Skill name="PostgreSQL" x="0vw" y="25vw" />
+        <Skill name="Temporal" x="18vw" y="0vw" />
+        <Skill name="Docker" x="-22vw" y="12vw" />
+        <Skill name="AWS" x="4vw" y="20vw" />
+        <Skill name="GCP" x="-5vw" y="18vw" />
+        <Skill name="Modal" x="-12vw" y="25vw" />
+        <Skill name="Claude / OpenAI" x="18vw" y="-15vw" />
+        <Skill name="LangChain" x="-15vw" y="20vw" />
       </div>
     </>
   );

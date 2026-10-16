@@ -47,7 +47,7 @@ export default function About() {
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
-            text="Passion Fuels Purpose!"
+            text="About Me"
             className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
@@ -56,21 +56,25 @@ export default function About() {
                 Biography
               </h2>
               <p className="font-medium ">
-                Hello, I&apos;m Saatvik, a dedicated full stack developer deeply
-                passionate about open source initiatives. I thrive on crafting
-                seamless and innovative digital solutions that seamlessly merge
-                form and function. My unwavering enthusiasm for open source
-                fuels my drive to translate client&apos;s visions into
-                captivating, user-centric experiences.
+                I&apos;m Saatvik, a software engineer based in San Francisco.
+                Most recently I was a Member of Technical Staff at Mercor (Aug
+                2025 – Sep 2026), a core engineer on 20+ client projects in AI
+                evaluation and data delivery. I worked closely with project
+                leads and domain experts, building the systems that create,
+                run, score, and ship eval work.
               </p>
               <p className="my-4 font-medium ">
-                I firmly believe that design should transcend aesthetics and
-                instead focus on problem-solving, resulting in intuitive and
-                gratifying user journeys. Be it a web application, a mobile
-                interface, or any digital platform, I channel my expertise in
-                design excellence and user-focused principles into every facet
-                of my work. I&apos;m excited about the prospect of channeling my
-                skills and fervor into your upcoming project.
+                Highlights: the pass@k scoring pipeline and dashboard behind
+                every client pass@k delivery; Claude-based validation that cut
+                eval QA review from 2–3 hours to 20 minutes per benchmark; a
+                model-by-benchmark dashboard covering 1M+ trajectories across 45
+                models; and an S3-backed PII annotation workflow that
+                anonymized 5K documents. I was also the go-to onboarder for new
+                engineers on every team I joined.
+              </p>
+              <p className="font-medium ">
+                I have an MS in Computer Science from USC and I&apos;m looking
+                for my next full-stack or AI engineering role.
               </p>
             </div>
 
@@ -87,26 +91,26 @@ export default function About() {
             <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3">
               <div className="flex flex-col items-end xl:items-center justify-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={40} />+
+                  <AnimatedNumbers value={20} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize dark:text-light/75 text-dark/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  Projects Completed
+                  Client Projects
                 </h2>
               </div>
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl  ">
-                  <AnimatedNumbers value={10} />+
+                  <AnimatedNumbers value={200} />+
                 </span>
                 <h2 className="text-lg font-medium  capitalize dark:text-light/75 text-dark/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  Open-Source Contributions
+                  Issues Resolved
                 </h2>
               </div>
               <div className="flex flex-col items-end xl:items-center justify-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={5} />+
+                  <AnimatedNumbers value={3} />
                 </span>
                 <h2 className="text-xl font-medium capitalize dark:text-light/75 text-dark/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  Hackathons won
+                  Hackathon Awards
                 </h2>
               </div>
             </div>

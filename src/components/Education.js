@@ -51,7 +51,7 @@ export default function Education() {
           <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
             <Details
               type="Master of Science in Computer Science"
-              time="2024-2025"
+              time="Jan 2024 - May 2025"
               place="University of Southern California, Los Angeles"
               info="Relevant courses: CSCI 561: Foundations of AI, CSCI 571: Web Technologies"
             />

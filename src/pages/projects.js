@@ -15,6 +15,8 @@ import thesocialtown from "../../public/images/projects/thesocialtown.png";
 import portfolio from "../../public/images/projects/portfolio.png";
 import aiflashcards from "../../public/images/projects/ai-flashcards.png"
 import pantryPal from "../../public/images/projects/pantry-pal.png"
+import adloom from "../../public/images/projects/adloom.jpg";
+import voctv from "../../public/images/projects/voctv.png";
 import { Icon } from "@iconify/react";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -175,15 +177,31 @@ export default function Projects(props) {
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
-            text="Imagination trumps knowledge"
+            text="Projects"
             className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
 
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 ">
           <div className="col-span-12">
               <FeaturedProject
+                title="Adloom"
+                summary="Generated localized video ads for 3 markets from 1 creative brief in 24 hours at the UCLA Gemini API Hackathon by chaining Gemini 2.5 Flash, Imagen 3, and Veo 3 with Inngest async jobs."
+                techStack={[
+                  "logos:nextjs-icon",
+                  "logos:google-gemini",
+                  "logos:postgresql",
+                  "logos:docker-icon",
+                ]}
+                type="Featured Project"
+                link="https://www.youtube.com/watch?v=lNmp-ElddPY"
+                github="https://github.com/saatviknagpal/adloom"
+                img={adloom}
+              />
+            </div>
+          <div className="col-span-12">
+              <FeaturedProject
                 title="AI Flashcards"
-                summary="I developed an AI-powered SaaS platform using Next.js, OpenAI, and Langchain that allows users to create personalized flashcards by entering text or uploading PDFs. This feature offers a highly interactive and customizable study tool, which led to a significant increase in user engagement. To enhance the platform's user experience and security, I integrated Tailwind CSS for styling, ShadCN UI for a modern interface, Clerk for secure route protection, and Firebase for backend support. These improvements contributed to a more reliable and appealing experience, ultimately boosting user retention."
+                summary="Reached 30+ active users and 500+ generated flashcards by shipping a generative AI flashcard app with Clerk auth, Stripe payments, and Firebase real-time updates."
                 techStack={[
                   "logos:nextjs-icon",
                   "arcticons:openai-chatgpt",
@@ -197,10 +215,26 @@ export default function Projects(props) {
                 img={aiflashcards}
               />
             </div>
+          <div className="col-span-12">
+              <FeaturedProject
+                title="VOCTV Console"
+                summary="Desktop console that simulates a Volumetric OCT and Vibrometry system, streaming live B-scans, A-scans, vibration traces, tuning curves, and a 3D basilar-membrane surface at 20 fps; device runs on a worker thread behind a swappable hardware interface, verified by 34 Qt Test cases in CI."
+                techStack={[
+                  "logos:c-plusplus",
+                  "logos:qt",
+                  "logos:cmake",
+                  "logos:github-actions",
+                ]}
+                type="Featured Project"
+                link="https://github.com/saatviknagpal/voctv-console"
+                github="https://github.com/saatviknagpal/voctv-console"
+                img={voctv}
+              />
+            </div>
             <div className="col-span-6 md:col-span-12">
               <Project
                 title="VisionaryLab"
-                summary="This project is an AI SaaS platform designed for image transformations. I developed it using Next.js and TypeScript for both the frontend and backend, integrating Kafka for real-time data streaming. By incorporating TensorFlow for machine learning, I achieved a 40% reduction in processing time. The platform also utilizes Cloudinary AI for image processing, MongoDB for database management, Clerk for secure authentication, and Stripe for seamless payment processing, resulting in a 20% increase in transaction reliability and a 15% boost in user trust."
+                summary="An AI SaaS platform for image transformations, built with Next.js and TypeScript, using Kafka for real-time data streaming, TensorFlow and Cloudinary AI for image processing, MongoDB for storage, Clerk for authentication, and Stripe for payments."
                 techStack={[
                   "logos:nextjs-icon",
                   "logos:nodejs-icon",
@@ -210,7 +244,7 @@ export default function Projects(props) {
                   "logos:cloudinary",
                 ]}
                 type="Featured Project"
-                link="https://visionary-lab.vercel.app/"
+                link="https://github.com/saatviknagpal/visionaryLab"
                 github="https://github.com/saatviknagpal/visionaryLab"
                 img={visionaryLab}
               />
@@ -242,7 +276,7 @@ export default function Projects(props) {
                   "logos:mongodb-icon",
                 ]}
                 type="Featured Project"
-                link="https://frontend-dot-webtechassignment3-418820.wl.r.appspot.com/"
+                link="https://github.com/saatviknagpal/assignment-3"
                 github="https://github.com/saatviknagpal/assignment-3"
                 img={stock}
               />
@@ -291,7 +325,7 @@ export default function Projects(props) {
                   "logos:framer",
                 ]}
                 type="Website"
-                summary="Welcome to my digital oasis of creativity and innovation! I'm thrilled to invite you to explore my personal portfolio website, a captivating journey through my passion and expertise. With a blend of design finesse and technical prowess, this site embodies my professional identity and showcases the distinctive facets of my journey."
+                summary="This site: a Next.js portfolio with a 3D avatar rendered with React Three Fiber, Framer Motion animations, and dark mode."
                 link="https://saatviknagpal.vercel.app/"
                 github="https://github.com/saatviknagpal/portfolio-updated/"
                 img={portfolio}

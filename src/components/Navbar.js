@@ -10,7 +10,6 @@ import {
   MoonIcon,
 } from "./Icons";
 import { motion } from "framer-motion";
-import { Icon } from "@iconify/react";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
 import { useState } from "react";
 const CustomLink = ({ href, title, className = "" }) => {
@@ -125,15 +124,6 @@ export default function Navbar() {
             >
               <LinkedInIcon />
             </motion.a>
-            <motion.a
-              href="https://www.instagram.com/saatvik_nagpal/"
-              target={"_blank"}
-              className="w-6 ml-6 "
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
-            >
-              <Icon className="text-2xl" icon="skill-icons:instagram" />
-            </motion.a>
 
             <button
               className={`ml-5  flex items-center justify-center rounded-full p-1 w-7 ${
@@ -201,15 +191,6 @@ export default function Navbar() {
                 whileTap={{ scale: 0.9 }}
               >
                 <LinkedInIcon />
-              </motion.a>
-              <motion.a
-                href="https://www.instagram.com/saatvik_nagpal/"
-                target={"_blank"}
-                className="w-6 ml-6 sm:mx-1"
-                whileHover={{ y: -2 }}
-                whileTap={{ scale: 0.9 }}
-              >
-                <Icon className="text-2xl" icon="skill-icons:instagram" />
               </motion.a>
 
               <button
