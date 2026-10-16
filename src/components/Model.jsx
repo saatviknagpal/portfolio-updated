@@ -7,9 +7,7 @@ import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 
 export function Model(props) {
-  const { nodes, materials } = useGLTF(
-    "https://models.readyplayer.me/64ccdeb283cb753a24f0ebe2.glb?"
-  );
+  const { nodes, materials } = useGLTF("/model.glb");
   return (
     <group {...props} dispose={null}>
       <primitive object={nodes.Hips} />

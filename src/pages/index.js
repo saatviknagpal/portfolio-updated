@@ -11,6 +11,7 @@ import HireMe from "@/components/HireMe";
 import Image from "next/image";
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
 import TransitionEffect from "@/components/TransitionEffect";
+import ModelErrorBoundary from "@/components/ModelErrorBoundary";
 
 export default function Home() {
   const [showResume, setShowResume] = useState(false);
@@ -41,6 +42,7 @@ export default function Home() {
         <Layout className="pt-0 md:pt-16 sm:pt-8">
           <div className="flex items-center justify-between w-full lg:flex-col">
             <div className="w-1/2 md:w-full">
+              <ModelErrorBoundary>
               <Canvas
                 frameloop="demand"
                 className="lg:hidden  md:w-full"
@@ -58,6 +60,8 @@ export default function Home() {
                 </Suspense>
                 <OrbitControls />
               </Canvas>
+              </ModelErrorBoundary>
+              <ModelErrorBoundary>
               <Canvas
                 frameloop="demand"
                 className="hidden md:inline-block md:w-full"
@@ -75,6 +79,7 @@ export default function Home() {
                 </Suspense>
                 <OrbitControls />
               </Canvas>
+              </ModelErrorBoundary>
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
