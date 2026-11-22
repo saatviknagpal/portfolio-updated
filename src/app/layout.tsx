@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 const description =
-  "Software engineer in San Francisco. I build eval tools for AI models and agents.";
+  "Full-stack engineer in San Francisco. I build AI agents, and the evals that tell me whether they work.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://saatviknagpal.vercel.app"),

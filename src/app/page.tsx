@@ -32,12 +32,14 @@ export default function Home() {
 
       <section className="mt-16 sm:mt-24">
         <p className="text-2xl leading-snug font-medium tracking-tight sm:text-[1.75rem]">
-          Hi, I&apos;m Saatvik. I write the tests AI agents have to pass.
+          Hi, I&apos;m Saatvik. I&apos;m a full-stack engineer. I build AI agents, and the evals that
+          tell me whether they work.
         </p>
         <p className="mt-5 leading-relaxed text-muted">
-          Mostly that means eval infrastructure. At Mercor I built the tooling teams used to run and
-          check model benchmarks, and on my own I build small agents and write evals for them before
-          I trust them. I live in {profile.location}. Outside of work I&apos;m usually cooking
+          At Mercor I built eval tooling for model benchmarks, from the backend pipelines to the
+          dashboards people used every day. On my own I build agents, like a dental front desk that
+          books real appointments, and I write evals for them before I trust them. I live in{" "}
+          {profile.location}. Outside of work I&apos;m usually cooking
           something I haven&apos;t made before, or playing table tennis.
         </p>
         <nav className="mt-6 flex flex-wrap gap-x-5 gap-y-2 font-mono text-sm">
