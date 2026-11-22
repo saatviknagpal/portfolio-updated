@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #fafafa;
+  --fg: #171717;
+  --muted: #737373;
+  --border: #e5e5e5;
+  --pass: #15803d;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0a0a0a;
+    --fg: #ededed;
+    --muted: #a1a1a1;
+    --border: #262626;
+    --pass: #4ade80;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-pass: var(--pass);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+}
+
+a.link {
+  text-decoration: underline;
+  text-decoration-color: var(--border);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 150ms;
+}
+a.link:hover {
+  text-decoration-color: var(--fg);
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Smooth open/close in browsers that support it; others just snap open. */
+:root {
+  interpolate-size: allow-keywords;
+}
+details::details-content {
+  height: 0;
+  overflow: clip;
+  transition: height 250ms ease-out, content-visibility 250ms allow-discrete;
+}
+details[open]::details-content {
+  height: auto;
+}
+@media (prefers-reduced-motion: reduce) {
+  details::details-content {
+    transition: none;
+  }
+}
